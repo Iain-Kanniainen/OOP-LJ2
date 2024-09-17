@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-    
-    ?>
+    $cities = array("Rotterdam", " Utrecht", " Vlaardingen" , " Den Haag");
+    $cities[] = " Schiedam";
+    echo $cities[0] , $cities[3] , $cities[4];
+        ?>
 </body>
 </html>
