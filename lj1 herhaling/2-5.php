@@ -7,13 +7,10 @@
 </head>
 <body>
     <?php
-    $name = null;
-    if ($name ?? null) {
-        echo "geen naam opgegeven" 
-    }
-    else {
-        echo "$name"
-    }
+    $name = NULL;
+    $checker = $name == NULL ? "Geen naam opgegeven" : $name;
+    echo $checker;
+    echo "<br>";
     
     ?>
 </body>
