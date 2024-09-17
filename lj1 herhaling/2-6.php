@@ -7,16 +7,24 @@
 </head>
 <body>
     <?php
-     $score = 89;
-     if ($score >= 90) {
-         echo "Je hebt een A";
-     } elseif ($score >= 80) {
-         echo "Je hebt een B";
-     } elseif ($score >= 70) { 
-         echo "Je hebt een C";
-     } else {
-         echo "Je moet beter je best doen";
-     }
+    $score = 86;
+    switch ($score)
+    {
+        case $score > 90:
+            echo "Geweldig";
+            break;
+        case $score >= 75:
+            echo "Goed";
+            break;
+        case $score >= 55:
+            echo "Voldoende";
+            break;
+        default:
+        echo "onvoldoende";
+    }
+    
+    $checker = $score > 55 ? " Geslaagd" : " Gezakt";
+    echo $checker;
     ?>
 </body>
 </html>
