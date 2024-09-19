@@ -7,9 +7,7 @@
 </head>
 <body>
     <?php
-    $correctVars = [$goon , $jelq , $edge , $sesh , $jumbo];
-
-    $incorrectVars = [$Goon , $jElq , $3dge , sesh , $JuMb0]
+    
     ?>
 </body>
 </html>
