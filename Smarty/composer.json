@@ -1,0 +1,11 @@
+{
+    "name": "fraubingus/smarty",
+    "autoload": {
+        "psr-4": {
+            "Fraubingus\\Smarty\\": "src/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^5.4"
+    }
+}
